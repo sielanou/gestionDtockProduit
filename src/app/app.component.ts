@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gestionDtockProduit';
+  showHideSideBar :  boolean= false;
+
+  onShowSideBarChange(show){
+    this.showHideSideBar =show;
+  }
 }
